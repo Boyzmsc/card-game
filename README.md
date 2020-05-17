@@ -764,7 +764,7 @@
 
 #### 1. 게임 초기 화면
 
-> ![게임 초기 화면](https://github.com/Boyzmsc/find-game/blob/master/screenShot\게임 초기 화면.png)
+> <img width="937" alt="게임-초기-화면" src="https://user-images.githubusercontent.com/28584213/82145233-5e18a580-9884-11ea-89fe-d2b510fb2804.png">
 
 ------
 
@@ -772,9 +772,9 @@
 
 #### 2. 정답 화면
 
-> ![난이도 쉬움 - 정답화면](https://github.com/Boyzmsc/find-game/blob/master/screenShot\난이도 쉬움 - 정답화면.png)
+> <img width="940" alt="난이도-쉬움-정답화면" src="https://user-images.githubusercontent.com/28584213/82145238-61139600-9884-11ea-905f-99172ef8cd75.png">
 
-> ![난이도 어려움 - 정답화면](https://github.com/Boyzmsc/find-game/blob/master/screenShot\난이도 어려움 - 정답화면.png)
+> <img width="943" alt="난이도-어려움-정답화면" src="https://user-images.githubusercontent.com/28584213/82145245-6375f000-9884-11ea-92bf-8b0732a71441.png">
 
 ------
 
@@ -782,9 +782,9 @@
 
 #### 3. 진행 화면
 
-> ![난이도 쉬움 - 진행화면](https://github.com/Boyzmsc/find-game/blob/master/screenShot\난이도 쉬움 - 진행화면.png)
+> <img width="938" alt="난이도-쉬움-진행화면" src="https://user-images.githubusercontent.com/28584213/82145239-61ac2c80-9884-11ea-921c-0fac45258715.png">
 
-> ![난이도 어려움 - 진행화면](https://github.com/Boyzmsc/find-game/blob/master/screenShot\난이도 어려움 - 진행화면.png)
+> <img width="935" alt="난이도-어려움-진행화면" src="https://user-images.githubusercontent.com/28584213/82145246-640e8680-9884-11ea-9386-83e5e59e9dab.png">
 
 ------
 
@@ -792,9 +792,9 @@
 
 #### 4. 결과 화면 (실패)
 
-> ![난이도 쉬움 - 결과화면(실패)](https://github.com/Boyzmsc/find-game/blob/master/screenShot\난이도 쉬움 - 결과화면(실패).png)
+> <img width="943" alt="난이도-쉬움-결과화면(실패)" src="https://user-images.githubusercontent.com/28584213/82145237-61139600-9884-11ea-8929-909347572196.png">
 
-> ![난이도 어려움 - 결과화면(실패)](https://github.com/Boyzmsc/find-game/blob/master/screenShot\난이도 어려움 - 결과화면(실패).png)
+> <img width="942" alt="난이도-어려움-결과화면(실패)" src="https://user-images.githubusercontent.com/28584213/82145244-62dd5980-9884-11ea-9535-735eb4581d19.png">
 
 ------
 
@@ -802,9 +802,9 @@
 
 #### 5. 결과 화면 (성공)
 
-> ![난이도 쉬움 - 결과화면(성공)](https://github.com/Boyzmsc/find-game/blob/master/screenShot\난이도 쉬움 - 결과화면(성공).png)
+> <img width="943" alt="난이도-쉬움-결과화면(성공)" src="https://user-images.githubusercontent.com/28584213/82145236-607aff80-9884-11ea-9261-8a9f7750e8f5.png">
 
-> ![난이도 어려움 - 결과화면(성공)](https://github.com/Boyzmsc/find-game/blob/master/screenShot\난이도 어려움 - 결과화면(성공).png)
+> <img width="940" alt="난이도-어려움-결과화면(성공)" src="https://user-images.githubusercontent.com/28584213/82145243-6244c300-9884-11ea-8950-ae0da10ffa90.png">
 
 ------
 
@@ -812,9 +812,9 @@
 
 #### 6. 결과 화면 (ALL CLEAR)
 
-> ![난이도 쉬움 - allclear](https://github.com/Boyzmsc/find-game/blob/master/screenShot\난이도 쉬움 - allclear.png)
+> <img width="943" alt="난이도-쉬움-allclear" src="https://user-images.githubusercontent.com/28584213/82145235-5fe26900-9884-11ea-8f48-669a3d03f50d.png">
 
-> ![난이도 어려움 - allclear](https://github.com/Boyzmsc/find-game/blob/master/screenShot\난이도 어려움 - allclear.png)
+> <img width="935" alt="난이도-어려움-allclear" src="https://user-images.githubusercontent.com/28584213/82145240-6244c300-9884-11ea-9d3e-bb7ec5c2bb33.png">
 
 
 
