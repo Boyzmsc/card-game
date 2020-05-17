@@ -1,0 +1,113 @@
+body {
+    background-color: darkgreen;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+#left {
+    width: 150px;
+    padding: 20px;
+}
+
+#left>div {
+    padding: 5px;
+    width: 150px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    text-align: left;
+    font-size: medium;
+}
+
+#left>button {
+    padding: 5px;
+    background-color: lightyellow;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    text-align: left;
+    font-size: medium;
+}
+
+#right {
+    background-color: palegreen;
+    border-radius: 5px;
+}
+
+#right div {
+    padding: 5px;
+}
+
+#gameover {
+    position: absolute;
+    bottom: 70px;
+    left: 338px;
+    z-index: 2;
+    font: oblique bold 110px fantasy;
+    color: red;
+    text-shadow: 2px 2px 3px rebeccapurple, 0 0 35px seashell, 0 0 5px darkblue;
+}
+
+#success {
+    position: absolute;
+    bottom: 70px;
+    left: 380px;
+    z-index: 2;
+    font: oblique bold 110px fantasy;
+    color: rgb(132, 207, 236);
+    text-shadow: 2px 2px 5px darkslateblue, 0 0 35px grey, 0 0 5px slateblue;
+}
+
+#allClear{
+    position: absolute;
+    bottom: 70px;
+    left: 454px;
+    z-index: 2;
+    font: oblique bold 110px fantasy;
+    color: rgb(252, 241, 142);
+    text-shadow: 3px 3px 10px black, 0 0 50px rgb(94, 92, 94), 0 0 5px whitesmoke;
+}
+
+#clearEasy{
+    position: absolute;
+    bottom: 230px;
+    left: 350px;
+    z-index: 3;
+    font: oblique bold 50px fantasy;
+    color:rgb(49, 194, 187);
+    text-shadow: 3px 3px 8px black, 0 0 35px seashell, 0 0 5px darkblue;
+}
+
+#clearHard{
+    position: absolute;
+    bottom: 230px;
+    left: 440px;
+    z-index: 3;
+    font: oblique bold 50px fantasy;
+    color:rgb(167, 41, 41);
+    text-shadow: 3px 3px 8px black, 0 0 35px seashell, 0 0 5px darkblue;
+}
+
+fieldset {
+    border: 1px solid white;
+}
+
+legend {
+    font: oblique medium sans-Serif;
+    color: white;
+}
+
+fieldset>button {
+    padding: 3px;
+    width: 56px;
+    background-color: white;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    font-size: small;
+}
