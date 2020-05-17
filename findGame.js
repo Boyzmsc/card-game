@@ -21,7 +21,7 @@ function getRand(col) {
     // 각 행에 무작위로 정답 부여
     while (random > 0) {
         var r = Math.floor(Math.random() * col);
-        line[r] = "<img src='front.png' alt='카드앞면' width='100px' height='150px'>";
+        line[r] = "<img src='media/front.png' alt='카드앞면' width='100px' height='150px'>";
         random--;
     }
 
@@ -29,23 +29,23 @@ function getRand(col) {
     if (phase == 3) {
         while (randomTrap > 0) {
             var k = Math.floor(Math.random() * col);
-            if (line[k] == "<img src='front.png' alt='카드앞면' width='100px' height='150px'>") {
+            if (line[k] == "<img src='media/front.png' alt='카드앞면' width='100px' height='150px'>") {
                 continue;
             }
-            line[k] = "<img src='trap.png' alt='함정' width='100px' height='150px'>";
+            line[k] = "<img src='media/trap.png' alt='함정' width='100px' height='150px'>";
             randomTrap--;
         }
     }
 
     // 정답과 함정이 아닌 나머지 요소에 틀린 답 부여
     for (var i = 0; i < col; i++) {
-        if (line[i] == "<img src='front.png' alt='카드앞면' width='100px' height='150px'>") {
+        if (line[i] == "<img src='media/front.png' alt='카드앞면' width='100px' height='150px'>") {
             numOfAnswer++;
             continue;
-        } else if (line[i] == "<img src='trap.png' alt='함정' width='100px' height='150px'>") {
+        } else if (line[i] == "<img src='media/trap.png' alt='함정' width='100px' height='150px'>") {
             continue;
         }
-        line[i] = "<img src='back.png' alt='카드뒷면' width='100px' height='150px'>";
+        line[i] = "<img src='media/back.png' alt='카드뒷면' width='100px' height='150px'>";
     }
     return line;
 }
@@ -135,44 +135,44 @@ function hardMode() {
 function check(i, j) {
     if (document.getElementById('status').innerHTML == "시작") {
         if (i == 1) {
-            if (line1[j] == "<img src='front.png' alt='카드앞면' width='100px' height='150px'>") {
+            if (line1[j] == "<img src='media/front.png' alt='카드앞면' width='100px' height='150px'>") {
                 numOfAnswer--;
                 document.getElementById("element").innerHTML = "남은 개수 : " + numOfAnswer;
-                document.getElementById("img" + j).src = "front.png";
-                line1[j] = "<img src='frontChecked.png' alt='카드앞면' width='100px' height='150px'>";  // 선택된 것으로 설정
-            } else if (line1[j] == "<img src='back.png' alt='카드뒷면' width='100px' height='150px'>") {
+                document.getElementById("img" + j).src = "media/front.png";
+                line1[j] = "<img src='media/frontChecked.png' alt='카드앞면' width='100px' height='150px'>";  // 선택된 것으로 설정
+            } else if (line1[j] == "<img src='media/back.png' alt='카드뒷면' width='100px' height='150px'>") {
                 numOfFailed++;
                 document.getElementById("failed").innerHTML = numOfFailed;
-                line1[j] = "<img src='backChecked.png' alt='카드뒷면' width='100px' height='150px'>";   // 선택된 것으로 설정
-            } else if (line1[j] == "<img src='trap.png' alt='함정' width='100px' height='150px'>") {
+                line1[j] = "<img src='media/backChecked.png' alt='카드뒷면' width='100px' height='150px'>";   // 선택된 것으로 설정
+            } else if (line1[j] == "<img src='media/trap.png' alt='함정' width='100px' height='150px'>") {
                 numOfTrap++;
             }
         } else if (i == 2) {
-            if (line2[j] == "<img src='front.png' alt='카드앞면' width='100px' height='150px'>") {
+            if (line2[j] == "<img src='media/front.png' alt='카드앞면' width='100px' height='150px'>") {
                 numOfAnswer--;
                 var k = j + 10;
                 document.getElementById("element").innerHTML = "남은 개수 : " + numOfAnswer;
-                document.getElementById("img" + k).src = "front.png";
-                line2[j] = "<img src='frontChecked.png' alt='카드앞면' width='100px' height='150px'>";  // 선택된 것으로 설정
-            } else if (line2[j] == "<img src='back.png' alt='카드뒷면' width='100px' height='150px'>") {
+                document.getElementById("img" + k).src = "media/front.png";
+                line2[j] = "<img src='media/frontChecked.png' alt='카드앞면' width='100px' height='150px'>";  // 선택된 것으로 설정
+            } else if (line2[j] == "<img src='media/back.png' alt='카드뒷면' width='100px' height='150px'>") {
                 numOfFailed++;
                 document.getElementById("failed").innerHTML = numOfFailed;
-                line2[j] = "<img src='backChecked.png' alt='카드뒷면' width='100px' height='150px'>";   // 선택된 것으로 설정
-            } else if (line2[j] == "<img src='trap.png' alt='함정' width='100px' height='150px'>") {
+                line2[j] = "<img src='media/backChecked.png' alt='카드뒷면' width='100px' height='150px'>";   // 선택된 것으로 설정
+            } else if (line2[j] == "<img src='media/trap.png' alt='함정' width='100px' height='150px'>") {
                 numOfTrap++;
             }
         } else if (i == 3) {
-            if (line3[j] == "<img src='front.png' alt='카드앞면' width='100px' height='150px'>") {
+            if (line3[j] == "<img src='media/front.png' alt='카드앞면' width='100px' height='150px'>") {
                 numOfAnswer--;
                 var k = j + 20;
                 document.getElementById("element").innerHTML = "남은 개수 : " + numOfAnswer;
-                document.getElementById("img" + k).src = "front.png";
-                line3[j] = "<img src='frontChecked.png' alt='카드앞면' width='100px' height='150px'>";  // 선택된 것으로 설정
-            } else if (line3[j] == "<img src='back.png' alt='카드뒷면' width='100px' height='150px'>") {
+                document.getElementById("img" + k).src = "media/front.png";
+                line3[j] = "<img src='media/frontChecked.png' alt='카드앞면' width='100px' height='150px'>";  // 선택된 것으로 설정
+            } else if (line3[j] == "<img src='media/back.png' alt='카드뒷면' width='100px' height='150px'>") {
                 numOfFailed++;
                 document.getElementById("failed").innerHTML = numOfFailed;
-                line3[j] = "<img src='backChecked.png' alt='카드뒷면' width='100px' height='150px'>";   // 선택된 것으로 설정
-            } else if (line3[j] == "<img src='trap.png' alt='함정' width='100px' height='150px'>") {
+                line3[j] = "<img src='media/backChecked.png' alt='카드뒷면' width='100px' height='150px'>";   // 선택된 것으로 설정
+            } else if (line3[j] == "<img src='media/trap.png' alt='함정' width='100px' height='150px'>") {
                 numOfTrap++;
             }
         }
@@ -182,28 +182,28 @@ function check(i, j) {
 function show() {
     document.write("<div>");
     for (var i = 0; i < 8; i++) {
-        document.write("<span id = 'span" + i + "' onclick='check(1," + i + ")'>" + "<img src='back.png' alt='카드뒷면' width='100px' height='150px'>" + "</span>");
+        document.write("<span id = 'span" + i + "' onclick='check(1," + i + ")'>" + "<img src='media/back.png' alt='카드뒷면' width='100px' height='150px'>" + "</span>");
     }
-    document.write("<span class = 'hardmode' id = 'span" + 8 + "' style ='display:none;' onclick='check(1," + 8 + ")'>" + "<img src='back.png' alt='카드뒷면' width='100px' height='150px'>" + "</span>");
-    document.write("<span class = 'hardmode' id = 'span" + 9 + "' style ='display:none;' onclick='check(1," + 9 + ")'>" + "<img src='back.png' alt='카드뒷면' width='100px' height='150px'>" + "</span>");
+    document.write("<span class = 'hardmode' id = 'span" + 8 + "' style ='display:none;' onclick='check(1," + 8 + ")'>" + "<img src='media/back.png' alt='카드뒷면' width='100px' height='150px'>" + "</span>");
+    document.write("<span class = 'hardmode' id = 'span" + 9 + "' style ='display:none;' onclick='check(1," + 9 + ")'>" + "<img src='media/back.png' alt='카드뒷면' width='100px' height='150px'>" + "</span>");
     document.write("</div>");
 
     document.write("<div>");
     for (var i = 0; i < 8; i++) {
         var k = i + 10;
-        document.write("<span id = 'span" + k + "' onclick='check(2," + i + ")'>" + "<img src='back.png' alt='카드뒷면' width='100px' height='150px'>" + "</span>");
+        document.write("<span id = 'span" + k + "' onclick='check(2," + i + ")'>" + "<img src='media/back.png' alt='카드뒷면' width='100px' height='150px'>" + "</span>");
     }
-    document.write("<span class = 'hardmode' id = 'span" + 18 + "' style ='display:none;' onclick='check(2," + 8 + ")'>" + "<img src='back.png' alt='카드뒷면' width='100px' height='150px'>" + "</span>");
-    document.write("<span class = 'hardmode' id = 'span" + 19 + "' style ='display:none;' onclick='check(2," + 9 + ")'>" + "<img src='back.png' alt='카드뒷면' width='100px' height='150px'>" + "</span>");
+    document.write("<span class = 'hardmode' id = 'span" + 18 + "' style ='display:none;' onclick='check(2," + 8 + ")'>" + "<img src='media/back.png' alt='카드뒷면' width='100px' height='150px'>" + "</span>");
+    document.write("<span class = 'hardmode' id = 'span" + 19 + "' style ='display:none;' onclick='check(2," + 9 + ")'>" + "<img src='media/back.png' alt='카드뒷면' width='100px' height='150px'>" + "</span>");
     document.write("</div>");
 
     document.write("<div>");
     for (var i = 0; i < 8; i++) {
         var k = i + 20;
-        document.write("<span id = 'span" + k + "' onclick='check(3," + i + ")'>" + "<img src='back.png' alt='카드뒷면' width='100px' height='150px'>" + "</span>");
+        document.write("<span id = 'span" + k + "' onclick='check(3," + i + ")'>" + "<img src='media/back.png' alt='카드뒷면' width='100px' height='150px'>" + "</span>");
     }
-    document.write("<span class = 'hardmode' id = 'span" + 28 + "' style ='display:none;' onclick='check(3," + 8 + ")'>" + "<img src='back.png' alt='카드뒷면' width='100px' height='150px'>" + "</span>");
-    document.write("<span class = 'hardmode' id = 'span" + 29 + "' style ='display:none;' onclick='check(3," + 9 + ")'>" + "<img src='back.png' alt='카드뒷면' width='100px' height='150px'>" + "</span>");
+    document.write("<span class = 'hardmode' id = 'span" + 28 + "' style ='display:none;' onclick='check(3," + 8 + ")'>" + "<img src='media/back.png' alt='카드뒷면' width='100px' height='150px'>" + "</span>");
+    document.write("<span class = 'hardmode' id = 'span" + 29 + "' style ='display:none;' onclick='check(3," + 9 + ")'>" + "<img src='media/back.png' alt='카드뒷면' width='100px' height='150px'>" + "</span>");
     document.write("</div>");
 }
 
@@ -217,9 +217,9 @@ function showBefore() {
             var idLine2 = 'span' + l2;
             var idLine3 = 'span' + l3;
 
-            document.getElementById(idLine1).innerHTML = "<img src='back.png' alt='카드뒷면' id = 'img" + i + "' width='100px' height='150px'>";
-            document.getElementById(idLine2).innerHTML = "<img src='back.png' alt='카드뒷면' id = 'img" + l2 + "' width='100px' height='150px'>";
-            document.getElementById(idLine3).innerHTML = "<img src='back.png' alt='카드뒷면' id = 'img" + l3 + "' width='100px' height='150px'>";
+            document.getElementById(idLine1).innerHTML = "<img src='media/back.png' alt='카드뒷면' id = 'img" + i + "' width='100px' height='150px'>";
+            document.getElementById(idLine2).innerHTML = "<img src='media/back.png' alt='카드뒷면' id = 'img" + l2 + "' width='100px' height='150px'>";
+            document.getElementById(idLine3).innerHTML = "<img src='media/back.png' alt='카드뒷면' id = 'img" + l3 + "' width='100px' height='150px'>";
         }
     } else if (document.getElementById('difficulty').innerHTML == "어려움") {
         for (var i = 0; i < 10; i++) {
@@ -230,9 +230,9 @@ function showBefore() {
             var idLine2 = 'span' + l2;
             var idLine3 = 'span' + l3;
 
-            document.getElementById(idLine1).innerHTML = "<img src='back.png' alt='카드뒷면' id = 'img" + i + "' width='100px' height='150px'>";
-            document.getElementById(idLine2).innerHTML = "<img src='back.png' alt='카드뒷면' id = 'img" + l2 + "' width='100px' height='150px'>";
-            document.getElementById(idLine3).innerHTML = "<img src='back.png' alt='카드뒷면' id = 'img" + l3 + "' width='100px' height='150px'>";
+            document.getElementById(idLine1).innerHTML = "<img src='media/back.png' alt='카드뒷면' id = 'img" + i + "' width='100px' height='150px'>";
+            document.getElementById(idLine2).innerHTML = "<img src='media/back.png' alt='카드뒷면' id = 'img" + l2 + "' width='100px' height='150px'>";
+            document.getElementById(idLine3).innerHTML = "<img src='media/back.png' alt='카드뒷면' id = 'img" + l3 + "' width='100px' height='150px'>";
         }
     }
 }
@@ -335,7 +335,6 @@ function playGame() {
         clearInterval(timeSet);
         document.getElementById("status").innerHTML = "시간 초과!";
         document.getElementById("button").innerHTML = "다시 시작";
-        document.getElementById("clock").innerHTML = "0";
         document.getElementById("gameover").style.visibility = "visible";
         document.getElementById("failed").style.cssText = "font-weight:normal; color:black;";
         document.getElementById("clock").style.cssText = "font-weight:normal; color:black;";
@@ -343,6 +342,7 @@ function playGame() {
         document.getElementById("hard").style.display = "inline-block";
         showAnswer();
         phase = 1;
+        time --;
     } else if (time == standard) {
         document.getElementById("element").innerHTML = "남은 개수 : " + numOfAnswer;
         document.getElementById("failed").innerHTML = numOfFailed;
