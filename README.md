@@ -764,7 +764,7 @@
 
 #### 1. 게임 초기 화면
 
-> ![게임 초기 화면](screenShot\게임 초기 화면.png)
+> ![게임 초기 화면](https://github.com/Boyzmsc/find-game/blob/master/screenShot\게임 초기 화면.png)
 
 ------
 
@@ -772,9 +772,9 @@
 
 #### 2. 정답 화면
 
-> ![난이도 쉬움 - 정답화면](screenShot\난이도 쉬움 - 정답화면.png)
+> ![난이도 쉬움 - 정답화면](https://github.com/Boyzmsc/find-game/blob/master/screenShot\난이도 쉬움 - 정답화면.png)
 
-> ![난이도 어려움 - 정답화면](screenShot\난이도 어려움 - 정답화면.png)
+> ![난이도 어려움 - 정답화면](https://github.com/Boyzmsc/find-game/blob/master/screenShot\난이도 어려움 - 정답화면.png)
 
 ------
 
@@ -782,9 +782,9 @@
 
 #### 3. 진행 화면
 
-> ![난이도 쉬움 - 진행화면](screenShot\난이도 쉬움 - 진행화면.png)
+> ![난이도 쉬움 - 진행화면](https://github.com/Boyzmsc/find-game/blob/master/screenShot\난이도 쉬움 - 진행화면.png)
 
-> ![난이도 어려움 - 진행화면](screenShot\난이도 어려움 - 진행화면.png)
+> ![난이도 어려움 - 진행화면](https://github.com/Boyzmsc/find-game/blob/master/screenShot\난이도 어려움 - 진행화면.png)
 
 ------
 
@@ -792,9 +792,9 @@
 
 #### 4. 결과 화면 (실패)
 
-> ![난이도 쉬움 - 결과화면(실패)](screenShot\난이도 쉬움 - 결과화면(실패).png)
+> ![난이도 쉬움 - 결과화면(실패)](https://github.com/Boyzmsc/find-game/blob/master/screenShot\난이도 쉬움 - 결과화면(실패).png)
 
-> ![난이도 어려움 - 결과화면(실패)](screenShot\난이도 어려움 - 결과화면(실패).png)
+> ![난이도 어려움 - 결과화면(실패)](https://github.com/Boyzmsc/find-game/blob/master/screenShot\난이도 어려움 - 결과화면(실패).png)
 
 ------
 
@@ -802,9 +802,9 @@
 
 #### 5. 결과 화면 (성공)
 
-> ![난이도 쉬움 - 결과화면(성공)](screenShot\난이도 쉬움 - 결과화면(성공).png)
+> ![난이도 쉬움 - 결과화면(성공)](https://github.com/Boyzmsc/find-game/blob/master/screenShot\난이도 쉬움 - 결과화면(성공).png)
 
-> ![난이도 어려움 - 결과화면(성공)](screenShot\난이도 어려움 - 결과화면(성공).png)
+> ![난이도 어려움 - 결과화면(성공)](https://github.com/Boyzmsc/find-game/blob/master/screenShot\난이도 어려움 - 결과화면(성공).png)
 
 ------
 
@@ -812,9 +812,9 @@
 
 #### 6. 결과 화면 (ALL CLEAR)
 
-> ![난이도 쉬움 - allclear](screenShot\난이도 쉬움 - allclear.png)
+> ![난이도 쉬움 - allclear](https://github.com/Boyzmsc/find-game/blob/master/screenShot\난이도 쉬움 - allclear.png)
 
-> ![난이도 어려움 - allclear](screenShot\난이도 어려움 - allclear.png)
+> ![난이도 어려움 - allclear](https://github.com/Boyzmsc/find-game/blob/master/screenShot\난이도 어려움 - allclear.png)
 
 
 
