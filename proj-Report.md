@@ -708,6 +708,7 @@
 
 > * 카드 찾기 게임의 전체적인 구조와 내용을 포함
 > * "findGame.css" 파일과 "findGame.js" 파일을 불러옴
+> * 게임 시작 전, 게임 규칙을 다이얼로그를 통해 설명함
 >
 > ```html
 > <!DOCTYPE html>
@@ -746,6 +747,8 @@
 >         </div>
 >         <div id="right">
 >             <script>
+>               	var rule = "<게임 규칙>\n제한시간 내에 모든 ♠카드를 찾으십시오.\n잘못된 선택 수가 7를 초과하거나 시간이 초과되면 실패하게 됩니다.\n3단계에는 추가로 함정카드도 부여됩니다.\n난이도를 선택하시고 모든 단계를 성공해보세요!";
+>                 alert(rule);
 >                 show();
 >             </script>
 >             <h3 id="gameover" style="visibility:hidden;">GAME OVER</h3>
