@@ -1,4 +1,4 @@
-# ♠ 카드 찾기 게임 프로젝트
+# ♠ 카드 찾기 게임
 
 
 ## 목차
@@ -55,7 +55,7 @@
 
 <div style="text-align: center"><table><tr>
 <td style="text-align: center">
-  <img src="https://user-images.githubusercontent.com/28584213/82145233-5e18a580-9884-11ea-89fe-d2b510fb2804.png" width="400"/>
+  <img src="https://user-images.githubusercontent.com/28584213/82145233-5e18a580-9884-11ea-89fe-d2b510fb2804.png" width="300"/>
 </td>
   </tr>
   </table></div>
@@ -145,10 +145,10 @@
 
 * 단계 추가 (1,2,3 단계)
 
-  > 1단계 : 시간 20초
-  >
-  > 2단계 : 시간 5초 감소
-  >
-  > 3단계 : 시간 5초 감소 및 함정 부여
+  * * 1단계 : 시간 20초
+  
+  * * 2단계 : 시간 5초 감소
+  
+  * * 3단계 : 시간 5초 감소 및 함정 부여
 
 * 모든 단계 성공 시, ALL CLEAR 텍스트 표시와 함께 단계 초기화
